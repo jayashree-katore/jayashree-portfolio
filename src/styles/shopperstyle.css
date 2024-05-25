@@ -15,7 +15,53 @@ header span{
     top:7px;
     right:7px;
 }
+
 /* style for article */
 .bi-lightning-fill{
     color:gold;
 }
+
+/* style for section */
+section{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 600px;
+    padding-top: 15px;
+}
+.woman{
+    background-image: url("../../public/images/woman-fashion.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 6fr 6fr;
+}
+.woman:hover{
+    opacity:0.8;
+}
+.man{
+    background-image: url("../../public/images/men-fashion.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 6fr 6fr;
+}
+.man:hover{
+    opacity:0.8;
+}
+.kid{
+    background-image: url("../../public/images/kid-girl.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 6fr 6fr;
+}
+.kid:hover{
+    opacity:0.8;
+}
+
