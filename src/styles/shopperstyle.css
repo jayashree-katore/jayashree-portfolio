@@ -12,8 +12,11 @@ header span{
 }
 #count{
     position: absolute;
-    top:7px;
-    right:7px;
+    top:17px;
+    right:24px;
+}
+.badge{
+    --bs-badge-font-size: 0.5em;
 }
 
 /* style for article */
@@ -40,6 +43,10 @@ section{
 .woman:hover{
     opacity:0.8;
 }
+.woman span{
+    margin-top: 110px;
+    text-shadow:  2px 2px black;
+}
 .man{
     background-image: url("../../public/images/men-fashion.jpg");
     background-size: cover;
@@ -52,6 +59,10 @@ section{
 .man:hover{
     opacity:0.8;
 }
+.man span{
+    margin-top: 110px;
+    text-shadow:  2px 2px black;
+}
 .kid{
     background-image: url("../../public/images/kid-girl.jpg");
     background-size: cover;
@@ -63,5 +74,9 @@ section{
 }
 .kid:hover{
     opacity:0.8;
+}
+.kid span{
+    margin-top: 110px;
+    text-shadow:  2px 2px black;
 }
 
