@@ -1,7 +1,7 @@
 /* style for header section */
 header{
     font-size: 22px;
-    font-family: Bodoni MT;
+    font-family: Arial;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -32,7 +32,7 @@ section{
     padding-top: 15px;
 }
 .woman{
-    background-image: url("../../public/images/woman-fashion.jpg");
+    background-image: url("../../public/images/women.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -93,6 +93,9 @@ section{
     background-color: white;
 }
 /* footer style */
+aside span{
+    padding-right: 7px;;
+}
 footer{
     background-color: black;
     color:white;
@@ -111,18 +114,13 @@ footer{
 }
 .email{
     display: inline-block;
-    width:300px;
-    padding:20px;
-    background-color:rgb(60, 51, 51);
     color:lightgray;
     text-align:left;
+    padding-right: 10px;
 }
 .btn-subscribe{
     display: inline-block;
-    padding: 20px;
-    text-align: center;
-    background-color: rgb(82, 72, 78);
-    margin-left: 10px;
+    
 }
 .services{
     padding-top: 50px;
@@ -156,3 +154,4 @@ address span{
     padding-bottom: 5px;
     color: rgb(179, 172, 172);
 }
+
