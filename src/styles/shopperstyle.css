@@ -18,6 +18,9 @@ header span{
 .badge{
     --bs-badge-font-size: 0.5em;
 }
+nav span:hover{
+    color:rgb(228, 154, 15);
+}
 
 /* style for article */
 .bi-lightning-fill{
@@ -42,6 +45,7 @@ section{
 }
 .woman:hover{
     opacity:0.8;
+   
 }
 
 .shop-all{
@@ -92,11 +96,24 @@ section{
     text-align: center;
     background-color: white;
 }
+.shipping-section{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    margin-left: 100px;
+    width: 80%;
+    padding:30px;
+    border-bottom: 1px solid gray;
+}
+.bag img:hover,.men-shirt img:hover{
+    transform: translateX(-10px);
+    transition: 3ms;
+}
 /* footer style */
 aside span{
     padding-right: 7px;;
 }
 footer{
+    margin-top: 100px;
     background-color: black;
     color:white;
     padding:10px;
