@@ -39,19 +39,19 @@
 
             if(bmi_status <= 18)
             {
-                document.getElementById("lblStatus").innerHTML = "Your Weight is : <b> UnderWeight </b> ";
+                document.getElementById("lblStatus").innerHTML = "Your Weight is : <b> " + " UnderWeight ".fontcolor('red') + "</b>";
             }
             else if(bmi_status > 18 && bmi_status <= 25)
             {
-                document.getElementById("lblStatus").innerHTML = "Your Weight is : <b> Normal </b> ";
+                document.getElementById("lblStatus").innerHTML = "Your Weight is : <b> " + " Normal ".fontcolor('green')+"</b>";
             }
             else if(bmi_status > 25 && bmi_status <= 30)
             {
-                document.getElementById("lblStatus").innerHTML = "Your Weight is : <b> OverWeight </b> ";
+                document.getElementById("lblStatus").innerHTML = "Your Weight is : <b> " + " OverWeight ".fontcolor('orange')  + "</b>";
             }
             else
             {
-                document.getElementById("lblStatus").innerHTML = "Your Weight is : <b> Obes </b> ";
+                document.getElementById("lblStatus").innerHTML = "Your Weight is : <b> " + " Obes ".fontcolor('red') + "</b>";
             }
         }
     </script>
