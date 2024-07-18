@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Preview(src, title){
+            document.getElementById("preview").src = src;
+            document.querySelector("h2").innerHTML = title;
+        }
+    </script>
+</head>
+<body>
+    <img ontouchstart="Preview(this.src, 'iPhone Black 128 GB')" src="../public/images/m2.jpg" width="50" height="50">
+    <img ontouchstart="Preview(this.src, 'iPhone Green 256 GB')" src="../public/images/m4.jpg" width="50" height="50">
+    <br><br>
+    <h2></h2>
+    <img width="300" height="400" id="preview">
+</body>
+</html>
